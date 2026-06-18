@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-日韩电影</title>
+    <meta name="description" content="搜索日韩电影、经典影片、高分电影、地区、年份和题材标签。">
+    <meta name="keywords" content="经典日韩电影,高分电影排行榜,日韩电影,经典影片,高分电影,电影榜单,精选影片">
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="nav-inner">
+        <a class="brand" href="index.html" aria-label="日韩电影">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">日韩电影</span>
+        </a>
+        <nav class="nav-menu" aria-label="主导航">
+            <a class="" href="index.html">首页</a>
+            <div class="dropdown">
+                <button class="dropdown-button" type="button">分类浏览</button>
+                <div class="dropdown-panel">
+                            <a href="categories/rihan-classic.html">日韩经典</a>
+                            <a href="categories/gaofen-movie.html">高分电影</a>
+                            <a href="categories/xuanyi-crime.html">悬疑犯罪</a>
+                            <a href="categories/aiqing-xiju.html">爱情喜剧</a>
+                            <a href="categories/juqing-family.html">剧情家庭</a>
+                            <a href="categories/action-adventure.html">动作冒险</a>
+                            <a href="categories/sci-fi-fantasy.html">科幻奇幻</a>
+                            <a href="categories/history-epic.html">年代史诗</a>
+                </div>
+            </div>
+            <a class="" href="rank.html">高分榜单</a>
+        </nav>
+        <form class="nav-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">⌕</button>
+        </form>
+        <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开导航">☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <a href="index.html">首页</a>
+        <a href="rank.html">高分榜单</a>
+        <a href="categories/rihan-classic.html">日韩经典</a>
+        <a href="categories/gaofen-movie.html">高分电影</a>
+        <a href="categories/xuanyi-crime.html">悬疑犯罪</a>
+        <a href="categories/aiqing-xiju.html">爱情喜剧</a>
+        <a href="categories/juqing-family.html">剧情家庭</a>
+        <a href="categories/action-adventure.html">动作冒险</a>
+        <a href="categories/sci-fi-fantasy.html">科幻奇幻</a>
+        <a href="categories/history-epic.html">年代史诗</a>
+        <form class="nav-search mobile-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">⌕</button>
+        </form>
+    </div>
+</header>
+<main class="page-main">
+<section class="page-hero">
+    <div class="container">
+        <div class="page-hero-card">
+            <div class="breadcrumb"><a href="index.html">首页</a><span>/</span><span>影片搜索</span></div>
+            <h1>影片搜索</h1>
+            <p>输入片名、地区、年份、题材或标签，快速查找片库中的电影与剧集内容。</p>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <form class="nav-search" action="search.html" method="get" style="display: block; width: min(680px, 100%); margin-bottom: 28px;">
+            <input id="searchPageInput" type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">⌕</button>
+        </form>
+        <div id="searchResults" class="movie-grid featured-grid"></div>
+    </div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <section>
+            <h2>日韩电影</h2>
+            <p>整理日韩经典电影与高分影片条目，按榜单、题材和片单分类展示，便于查看口碑内容。</p>
+        </section>
+        <section>
+            <h3>快速导航</h3>
+            <div class="footer-links">
+                <a href="index.html">首页</a>
+                <a href="rank.html">高分榜单</a>
+                <a href="search.html">影片搜索</a>
+            </div>
+        </section>
+        <section>
+            <h3>精选分类</h3>
+            <div class="footer-links">
+                <a href="categories/rihan-classic.html">日韩经典</a>
+                <a href="categories/gaofen-movie.html">高分电影</a>
+                <a href="categories/xuanyi-crime.html">悬疑犯罪</a>
+                <a href="categories/aiqing-xiju.html">爱情喜剧</a>
+                <a href="categories/juqing-family.html">剧情家庭</a>
+            </div>
+        </section>
+    </div>
+    <div class="container footer-bottom">© 2026 日韩电影 · 精选内容持续更新</div>
+</footer>
+<script src="assets/search-index.js"></script>
+<script src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
